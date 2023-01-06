@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    idx = s.find('*')
+    if idx != -1:
+        return idx
+    else:    
+        return False
+
+print(main('2*44')) 
         
