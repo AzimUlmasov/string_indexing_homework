@@ -6,4 +6,4 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return s.count()
