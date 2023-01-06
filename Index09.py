@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    idx = int(s)
+    if s.isdigit() and int(s) > 0:
+        return idx
+    else:
+        return -1
+print(main('4)) 
